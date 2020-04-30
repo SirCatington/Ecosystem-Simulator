@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class Food : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public bool targeted;
+
+    private void Start()
     {
-        
+        targeted = false;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 }
+    
+  
+
+    
+
